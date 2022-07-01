@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkuba_docs=self.webpackChunkkuba_docs||[]).push([[733],{4992:e=>{e.exports=JSON.parse('{"title":"Home & Gardening","slug":"/category/home--gardening","permalink":"/docs/category/home--gardening","navigation":{"next":{"title":"Carpenter Bees","permalink":"/docs/category/carpenter-bees"}}}')}}]);
