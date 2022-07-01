@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "~/wiki",
+  title: "~/dox",
   tagline: "knowledge is power",
-  url: "https://rahabash.github.io",
+  url: "https://dox.kuba.gg",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -17,10 +17,10 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "rahabash", // Usually your GitHub org/user name.
-  projectName: "rahabash.github.io", // Usually your repo name.
+  projectName: "dox", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
-  trailingSlash: true,
+  // trailingSlash: true,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -39,13 +39,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/rahabash/rahabash.github.io",
+          editUrl: "https://github.com/rahabash/dox/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/rahabash/rahabash.github.io",
+          editUrl: "https://github.com/rahabash/dox/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -72,7 +72,7 @@ const config = {
           },
           { to: "/blog", label: "devlog", position: "left" },
           {
-            href: "https://github.com/rahabash/rahabash.github.io",
+            href: "https://github.com/rahabash/dox",
             label: "GitHub",
             position: "right",
           },
