@@ -116,7 +116,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/rahabash/rahabash.github.io",
+                href: "https://github.com/rahabash/dox",
               },
             ],
           },
